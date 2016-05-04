@@ -1,0 +1,46 @@
+body {
+	background-color: black;
+	font-family: helvetica;
+	color: white;
+	font-size: 12px;
+	font-weight: medium;
+	font-style: normal;
+	line-height: 1.3em;
+}
+
+h1{
+	background-color: red;
+	height:40px;
+	letter-spacing: 5px;
+	font-family: georgia;
+	font-size: 70px;
+	line-height: 70px;
+	text-decoration: line-through;
+	text-align: right;
+	font-family: 'Amatic SC', cursive;
+}
+
+h3{
+	font-family: 'Amatic SC';
+	background-color: red;
+	font-size: 50px;
+	height:200px;
+	width:200px;
+	line-height: 50px;
+}
+
+p{
+	width: 500px;
+	opacity: 0.5;
+}
+
+ul{
+   border: 5px black;
+   border-style: dotted;
+   margin: 1em;
+   padding: 1em;
+   background: white;
+   opacity:0.8;
+   color: silver;
+   width:450px;
+}

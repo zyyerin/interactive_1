@@ -1,0 +1,13 @@
+* {
+	font-size: 100px;
+	color: transparent;
+   text-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+@-webkit-keyframes blackblur {
+  from { text-shadow: 0 0 72px black; color: transparent; }
+  to   { text-shadow: 0;              color: black;       }
+}
+
+p {
+	-webkit-animation: blackblur 5s alternate ease; }

@@ -1,0 +1,29 @@
+* {
+	font-family: Helvetica;
+	color: white;
+}
+
+.imone {
+	width: 150px;
+	height: 130px;
+	background-color: darkgray;
+	font-size: 30px;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.imtwo {
+	width: 1000px;
+	height: 100px;
+	background-color: lightgray;
+}
+
+.imsleepy {
+	color: lightblue;
+	font-size: 50px;
+}
+
+.imhungry {
+	color:crimson ;
+	text-align: center;
+}

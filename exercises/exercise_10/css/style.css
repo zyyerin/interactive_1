@@ -1,0 +1,116 @@
+* {
+	font-family: Helvetica;
+}
+
+li:hover {
+	list-style: upper-latin;
+}
+input {
+	min-width: 80%;
+	padding: 30px;
+	color: white;
+	font-size: 100px;
+	border: none;
+	opacity: .8;
+	margin: -20px;
+	background-color: black;
+	border-radius: 30%;
+}
+
+/* 1 */
+@keyframes fade {
+  0% {
+opacity: 0;
+}
+}
+
+.colorbox {
+	margin: 200px;
+	font-size: 14px;
+  animation-name: fade;
+  animation-duration: 60s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+/* 2 */
+
+@keyframes slide {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  50% {
+	left: 50%; 
+	color: red;
+}
+  100% {
+    left: 200%;
+  }
+}
+
+.background {
+  background: black;
+  height: 300px;
+  position: relative;
+  min-width: 538px;
+}
+
+.background:hover .dot {
+  animation-name: slide;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.dot {
+	font-size: 20px;
+	color:white;
+  height: 50px;
+  position: absolute;
+}
+
+
+@keyframes slide2 {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  50% {
+    left: 800px;
+  }
+  100% {
+    left: 200px;
+  }
+}
+
+
+.background2 {
+  background: #0d8def;
+  border-radius: 30px;
+  height: 300px;
+  position: relative;
+  min-width: 538px;
+  width: 600px;
+}
+
+.background2:hover .dot2 {
+  animation-name: slide2;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.dot2 {
+	font-size: 50px;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+

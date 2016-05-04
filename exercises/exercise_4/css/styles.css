@@ -1,0 +1,33 @@
+body {
+	color: white;
+	font-family: Helvetica;
+	background: linear-gradient(120deg, orange 10%, white);
+	background-repeat: no-repeat;
+	height: 500px;
+	z-index: 1px;
+}
+
+p{
+	width: 300px;
+	line-height: 20px;
+	font-weight: lighter;
+	font-size: 12px;
+	padding-left: 20px;
+	padding-top: 15px;
+	text-indent: 2em;
+	letter-spacing: 0.1em;
+}
+
+#first {
+	z-index: 5;
+	height: 60px;
+	width: 60px;
+	background-color: white;
+	opacity: 0.3;
+	margin: 210px 200px;
+}
+
+#second {
+	margin-top: -100px;
+	z-index: 20;
+}

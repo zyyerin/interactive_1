@@ -1,0 +1,15 @@
+* {
+	font-family: Helvetica;
+	color: silver;
+	font-size: 12px;
+	letter-spacing: 1px;
+}
+
+#prince {
+	height: 500px;
+	width: 100px;
+	margin: auto;
+	border: 20px double white;
+	background-color: black;
+	text-align: center;
+}

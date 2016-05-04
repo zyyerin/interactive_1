@@ -1,0 +1,45 @@
+.draggable
+{
+    position: relative; 
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: top;
+    zoom: 1;
+    *display: inline;   
+
+    cursor: hand; 
+    cursor: pointer;       
+}
+
+.resizable
+{
+    width: 100px;   
+}
+.resizable img
+{
+    width: 100%; 
+    position: absolute;
+    z-index: 0;  
+}
+
+.ui-resizable-handle 
+{
+    position: relative;
+    z-index: 2;
+}
+
+.ui-resizable-se{
+	width: 0;
+	height: 0;
+	border-bottom: 18px solid silver;
+	border-left: 18px solid transparent;
+	float:right;
+	margin-top: 100%;
+}
+.ui-resizable-sw{
+	width: 0;
+	height: 0;
+	border-top: 18px solid silver;
+	border-right: 18px solid transparent;
+	float:left;
+}

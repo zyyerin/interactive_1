@@ -1,0 +1,60 @@
+body {
+  background: ghostwhite;
+}
+
+* {
+  cursor: text;
+}
+
+#container {
+  margin: auto;
+  width: 2000px;
+}
+
+.button p {
+  font-size: 200px;
+  margin: auto;
+}
+
+.button {
+  background: maroon;
+  border-radius: 60px;
+  cursor: crosshair;
+  height: 500px;
+  width: 1350px;
+  line-height: 95px;
+  text-align: center;
+  margin: 20px;
+  transition-property: background;
+  transition-duration: 10s;
+  transition-delay: .2s;
+  transition-timing-function: linear;
+ 
+}
+
+.button:hover {
+  background: black;
+  border-radius: 60px;
+}
+
+.circle {
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  background: #ffcc99;
+  cursor: pointer;
+  transition-property: background;
+  transition-duration: 2s;
+  transition-delay: .4s;
+  transition-timing-function: linear;
+}
+
+.circle:hover {
+  background: black;
+  border-radius: 10px;
+}
+
+#spacer {
+  height: 200px;
+  
+}

@@ -1,0 +1,63 @@
+* {
+	font-family: Helvetica;
+	color: white;
+
+}
+
+#container {
+	width: 960px;
+	margin: 0px auto;
+}
+
+#left-column {
+	width: 700px;
+	float: left;
+	background: black;
+}
+
+#right-column {
+	width: 260px;
+	float: left;
+	background: orange;
+}
+
+/*screen*/
+@media screen and (max-width: 2000px) {
+	#container {
+		width: 100%;
+	}
+	#left-column {
+		width: 50%;
+	}
+	#right-column {
+		width: 50%
+	}
+	img {
+		width: 100%;
+	}
+}
+
+/*phone*/
+
+@media screen and (max-width: 640px) {
+	#container {
+		width: 100%;
+	}
+	#left-column {
+		width: 100%;
+		color: black;
+
+	}
+	#right-column {
+		width: 100%
+	}
+	img {
+		width: 100%;
+	}
+
+
+@media screen and (max-width: 320px) {
+	#container {
+		width: 320px;
+	}
+}

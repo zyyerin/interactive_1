@@ -1,0 +1,20 @@
+body {
+	padding:50px;
+}
+
+div {
+  cursor:move;
+  width:70px;
+  height:70px;
+  background-color:black;
+  margin:2px;
+  float:left;
+}
+
+.draggable {
+  background-color:yellow;
+}
+
+.box1{
+	opacity: .1;
+}
