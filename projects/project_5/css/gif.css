@@ -1,0 +1,50 @@
+html, body { height: 100%; width: 100%; margin: 0; }
+.container {
+	position: relative;
+	float: left;
+	width: 50%;
+	height: 100%;
+	display: inline-block;
+	opacity: 0;
+}
+
+.imgr {
+	background-image: url(../images/rikka-eyet.gif);
+}
+.imgi {
+	background-image: url(../images/rikka-eye.gif);
+}
+
+.container:hover {
+	opacity: 1;
+}
+
+.imgr2 {
+	background-image: url(../images/rikka-door2.gif);
+}
+.imgi2 {
+	background-image: url(../images/rikka-door.gif);
+}
+
+
+.container2 {
+	position: relative;
+	float: left;
+	width: 33.3%;
+	height: 100%;
+	opacity: 0.2;
+	display: inline-block;
+}
+.container2:hover {
+	opacity: 1;
+}
+
+.chu2after {
+	background-image: url(../images/chu2-after.gif);
+}
+.chu2after2 {
+	background-image: url(../images/chu2-after2.gif);
+}
+.chu2after3 {
+	background-image: url(../images/chu2-after3.gif);
+}

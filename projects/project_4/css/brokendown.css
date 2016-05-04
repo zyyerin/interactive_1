@@ -1,0 +1,36 @@
+a {
+ overflow: hidden;
+ color: black;
+ text-decoration: none;
+ transition: all 30s ease-in-out;
+
+}
+a:hover {
+ letter-spacing: 10em;
+ text-decoration: none;
+ color: whitesmoke;
+ transition: all 30s ease-in-out;
+
+}
+
+body {
+	background-color: firebrick;
+}
+
+* {
+	font-family: Clarendon;
+	font-size: 70px;
+}
+
+.container {
+	height: 100%;
+	margin: auto;
+	padding-top: 80px;
+	text-align: center;
+	line-height: 85px;
+}
+
+@font-face {
+	font-family: 'Clarendon';
+	src: url("Clare");
+}

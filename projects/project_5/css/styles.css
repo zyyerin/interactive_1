@@ -1,0 +1,151 @@
+html, body { height: 100%; width: 100%; margin: 0; }
+
+body{
+	background-color: #f6f6f6;
+}
+.evileyevideo {
+	width: 100%;
+	height: 100%;
+}
+#evileye2{
+	background-color: black;
+}
+
+h1 {
+	font-family: Georgia;
+	font-size: 1.8em;
+	font-weight: normal;
+	padding-bottom: .2em;
+	border-bottom: 1px solid silver; 
+}
+.subtitle {
+	font-size: 1.6em;
+}
+.footer{
+	font-size: 0.7em;
+	font-family: Helvetica;
+	width: 82%;
+	margin: -2em auto 6em auto;
+}
+span:hover {
+	color: silver;
+	transition: all 0.5s ease;
+}
+h2 {
+	margin-top: -1%;
+	color: #252525;
+	font-family: Helvetica;
+	font-size: .805em;
+	font-weight: normal;
+	letter-spacing: -.01em;
+}
+.container {
+	width: 77%;
+	margin: 5% auto 5% auto;
+	padding: 2.5em;
+	background-color: white;
+	border: 1px solid #a7d7f9;
+}
+.containerindex {
+	height: 50%;
+}
+
+h3 {
+	width: 50%;
+	margin: -1% auto 0 auto;
+	font-family: Helvetica;
+	font-size: 1.2em;
+	font-weight: normal;
+	letter-spacing: -.01em;
+	margin-top: 25%;
+}
+#main{
+	text-align: center;
+	color: #252525;
+	position: fixed;
+	background-color: white;
+	opacity: .95;
+	width: 105%;
+	height: 110%;
+	margin: -10% 0 0 -2%;
+	z-index: 10;
+	line-height: 2em;
+}
+
+.caption{
+	font-style: italic;
+	font-family: Helvetica;
+	font-size: .875em;
+	line-height: 1.8;
+	padding-top: .8em;
+}
+.container2 {
+	width: 60%;
+	position: relative;
+	float: left;
+	display: inline-block;
+	margin-top: -1.6em;
+
+	color: #252525;
+	font-family: Helvetica;
+	font-size: .875em;
+	line-height: 1.8;
+}
+.chuinflu {
+	color: #252525;
+	font-family: Helvetica;
+	font-size: .875em;
+	line-height: 1.8;
+	margin-bottom: 10%;
+}
+
+.container3 {
+	width: 40%;
+	position: relative;
+	float: left;
+	display: inline-block;
+	margin-top: -1.6em;
+
+	color: #252525;
+	font-family: Helvetica;
+	font-size: .875em;
+	line-height: 1.8;
+}
+.introduction {
+	width: 95%;
+	float: right;
+	margin-top: 3%;
+}
+
+[tooltip]:before {
+    /* needed - do not touch */
+    content: attr(tooltip);
+    position: absolute;
+    opacity: 0;
+
+    /* customizable */
+    transition: all 0.3s ease;
+    transition-delay: .3s;
+    padding: 8px;
+    color: #333;
+    border: 1px solid silver;
+    font-size: .9em;
+}
+
+[tooltip]:hover:before {
+    /* needed - do not touch */
+    opacity: .95;
+    /* customizable */
+    background: ghostwhite;
+    margin-top: 20px;
+    margin-left: -80px;
+}
+
+a {
+	text-decoration: none;
+	color: #0645ad;
+	cursor: pointer;
+}
+a:visited {
+	color: #663366;
+}

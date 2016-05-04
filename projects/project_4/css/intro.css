@@ -1,0 +1,96 @@
+body {
+	background-color: whitesmoke;
+}
+
+* {
+	font-family: Clarendon;
+	font-size: 70px;
+}
+
+@font-face {
+	font-family: 'Clarendon';
+	src: url("Clare");
+}
+.container {
+	width: 650px;
+	height: 100%;
+	margin: auto;
+	padding-top: 80px;
+	text-align: center;
+	line-height: 85px;
+}
+
+#fall {
+	color: dimgray;
+	text-decoration: none;
+	transition: all .5s ease-in-out;
+}
+
+#fall1 {
+	color: dimgray;
+	text-decoration: none;
+	transition: all .5s ease-in-out;
+}
+
+#fall2 {
+	color: dimgray;
+	text-decoration: none;
+	transition: all .5s ease-in-out;
+}
+
+#fall3 {
+	color: dimgray;
+	text-decoration: none;
+	transition: all .5s ease-in-out;
+}
+
+#fall4 {
+	color: dimgray;
+	text-decoration: none;
+	transition: all .5s ease-in-out;
+}
+
+#fall5 {
+	color: dimgray;
+	text-decoration: none;
+	transition: all .5s ease-in-out;
+}
+
+#fall6 {
+	color: dimgray;
+	text-decoration: none;
+	transition: all .5s ease-in-out;
+}
+#fall6:hover {
+	color: crimson;
+	transition: all .5s ease-in-out;
+}
+#fall6:active {
+	color: firebrick;
+	transition: all .5s ease;
+}
+
+#fall:hover {
+	color: black;
+	transition: all .5s ease-in-out;
+}
+#fall1:hover {
+	color: black;
+	transition: all .5s ease-in-out;
+}
+#fall2:hover {
+	color: black;
+	transition: all .5s ease-in-out;
+}
+#fall3:hover {
+	color: black;
+	transition: all .5s ease-in-out;
+}
+#fall4:hover {
+	color: black;
+	transition: all .5s ease-in-out;
+}
+#fall5:hover {
+	color: black;
+	transition: all .5s ease-in-out;
+}

@@ -1,0 +1,98 @@
+* {
+	font-family: Clarendon;
+	font-size: 24px;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+@font-face {
+	font-family: 'Clarendon';
+	src: url("Clare");
+}
+
+.london {
+	width: 600px;
+	height: 100%;
+	margin: 0 0 0 100px;
+	padding-top: 70px;
+	vertical-align: center;
+}
+
+.round1:hover{
+	color: maroon;
+	transition: all .7s ease;
+}
+.round2:hover{
+	color: firebrick;
+	transition: all .7s ease;
+
+}
+.round3:hover{
+	color: crimson;
+	transition: all .7s ease;
+}
+.round4:hover{
+	color: whitesmoke;
+	transition: all .7s ease;
+}
+
+.round1{
+	transition: all .7s ease;
+}
+.round2{
+	transition: all .7s ease;
+
+}
+.round3{
+	transition: all .7s ease;
+}
+.round4{
+	transition: all .7s ease;
+}
+
+.bridge {
+	width: 270px;
+	padding-top: 100px;
+	opacity: 0;
+}
+
+.fall-a {
+	width: 150px;
+	margin: -20px 0 0 230px;
+
+	opacity: 0;
+}
+
+.fall-b {
+	width: 150px;
+	margin: 400px 0 0 230px;
+
+	opacity: 0;
+}
+
+.fall-c {
+	width: 150px;
+	margin: 400px 0 0 230px;
+
+	opacity: 0;
+}
+
+.bridge2 {
+	width: 270px;
+	margin: 500px 0 0 0;
+	opacity: 0;
+}
+.fall-d {
+	width: 150px;
+	margin: -21px 0 0 230px;
+	opacity: 0;
+}
+
+.fairlady {
+	width: 300px;
+	margin: 600px 0 400px 0;
+	opacity: 0;
+}

@@ -1,0 +1,18 @@
+* {
+	font-family: Garamond;
+	font-size: 12px;
+	color: gray;
+	text-decoration: none;
+	line-height: 20px;
+	letter-spacing: .1px;
+}
+#text {
+	margin-top: 150px;
+	margin-left: 150px;
+	width: 300px;
+}
+
+a:hover {
+	background: silver;
+	color: white;
+}
