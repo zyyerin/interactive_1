@@ -1,18 +1,25 @@
 * {
 	font-family: Garamond;
-	font-size: 12px;
 	color: gray;
 	text-decoration: none;
-	line-height: 20px;
 	letter-spacing: .1px;
 }
+h1{
+	font-size: 1.6em;
+}
 #text {
-	margin-top: 150px;
-	margin-left: 150px;
-	width: 300px;
+	margin-top: 15vw;
+	margin-left: 15vw;
+	width: 40vw;
+	min-width: 300px;
+	
+	font-size: 0.9em;
+	line-height: 160%;
+
 }
 
 a:hover {
 	background: silver;
 	color: white;
+	cursor: pointer;
 }
